@@ -1,0 +1,32 @@
+/*Left Pane and Chat Header*/
+#pane-side, #main header{
+  filter : blur(5px); 
+}
+
+#pane-side:hover, #main header:hover {
+  filter : blur(0px); 
+}
+
+/*Chat area*/
+._2nmDZ {
+  filter : blur(10px);
+  transition: all 2s linear !important;
+  transition-delay: 2s !important;
+}
+
+._2nmDZ:hover {
+  filter : blur(0px);
+  transition: all 0s linear !important;
+}
+
+/*Chat Info*/
+._2sNbV {
+  filter :  blur(3px) opacity(25%) grayscale(100%);
+  transition: all 2s linear;
+  transition-delay: 2s;
+}
+
+._2sNbV:hover {
+  filter : blur(0px) opacity(100%) grayscale(0%);
+  transition: all 0s linear;
+}

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "WhatsApp Privacy",
+  "description": "This will blur your WhatsApp chats in browser",
+  "version": "1.0",
+  "content_scripts": [{
+   "matches": ["https://web.whatsapp.com/"],
+   "css": ["app.css"]
+ }],
+  "icons": {
+      "128": "128.png",
+      "64": "64.png",
+      "48": "48.png",
+      "32": "32.png",
+      "16": "16.png"
+   }
+}
