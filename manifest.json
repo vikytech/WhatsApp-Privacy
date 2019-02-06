@@ -3,6 +3,7 @@
   "name": "WhatsApp™ Privacy",
   "description": "This will blur your WhatsApp™ chats in browser",
   "version": "1.1",
+  "default_locale": "en",
   "content_scripts": [{
    "matches": ["https://web.whatsapp.com/"],
    "css": ["app.css"]
