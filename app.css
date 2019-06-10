@@ -8,13 +8,13 @@
 }
 
 /*Chat area*/
-._2nmDZ {
+._1_keJ {
   filter : blur(10px);
   transition: all 2s linear !important;
   transition-delay: 2s !important;
 }
 
-._2nmDZ:hover {
+._1_keJ:hover {
   filter : blur(0px);
   transition: all 0s linear !important;
 }
